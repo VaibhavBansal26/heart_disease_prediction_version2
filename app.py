@@ -3,7 +3,7 @@ import json
 import requests
 
 
-st.title('Heart Disease Prediction App')
+st.title('Heart Disease Prediction App (GRP 14)')
 
 # Define the numerical and categorical columns
 numerical_columns = [
