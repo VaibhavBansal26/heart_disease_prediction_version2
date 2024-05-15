@@ -1,0 +1,1 @@
+[('preprocessor', Preprocessor()), ('decisiontreeclassifier', DecisionTreeClassifier(criterion='entropy', max_depth=6, random_state=0))]

@@ -1,0 +1,14 @@
+aliases: []
+creation_timestamp: 1715758871768
+current_stage: None
+description: ''
+last_updated_timestamp: 1715758871768
+name: dt_model
+run_id: fef2db0f882247788008d3056eef4e88
+run_link: ''
+source: mlflow-artifacts:/279698036488190190/fef2db0f882247788008d3056eef4e88/artifacts/heart_disease_prediction_model
+status: READY
+status_message: null
+storage_location: mlflow-artifacts:/279698036488190190/fef2db0f882247788008d3056eef4e88/artifacts/heart_disease_prediction_model
+user_id: null
+version: 1

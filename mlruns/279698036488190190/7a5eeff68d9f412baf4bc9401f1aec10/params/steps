@@ -1,0 +1,1 @@
+[('preprocessor', Preprocessor()), ('randomforestclassifier', RandomForestClassifier(max_depth=5, n_estimators=20, random_state=12))]

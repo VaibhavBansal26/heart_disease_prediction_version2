@@ -1,0 +1,14 @@
+aliases: []
+creation_timestamp: 1715758950850
+current_stage: None
+description: ''
+last_updated_timestamp: 1715758950850
+name: svc_model
+run_id: ccaaf9fb6ae84842897ccaaa0dcdee08
+run_link: ''
+source: mlflow-artifacts:/279698036488190190/ccaaf9fb6ae84842897ccaaa0dcdee08/artifacts/heart_disease_prediction_model
+status: READY
+status_message: null
+storage_location: mlflow-artifacts:/279698036488190190/ccaaf9fb6ae84842897ccaaa0dcdee08/artifacts/heart_disease_prediction_model
+user_id: null
+version: 1

@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/279698036488190190/d19d7e1162f1494ba88691e102a36681/artifacts
+end_time: 1715760007541
+entry_point_name: ''
+experiment_id: '279698036488190190'
+lifecycle_stage: active
+run_id: d19d7e1162f1494ba88691e102a36681
+run_name: Random_Forest_n_estimator_70
+run_uuid: d19d7e1162f1494ba88691e102a36681
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1715760005650
+status: 3
+tags: []
+user_id: vaibhavbansal

@@ -1,0 +1,14 @@
+aliases: []
+creation_timestamp: 1715760007538
+current_stage: None
+description: ''
+last_updated_timestamp: 1715760007538
+name: random_forest_model_n_estimators=70
+run_id: d19d7e1162f1494ba88691e102a36681
+run_link: ''
+source: mlflow-artifacts:/279698036488190190/d19d7e1162f1494ba88691e102a36681/artifacts/heart_disease_prediction_model
+status: READY
+status_message: null
+storage_location: mlflow-artifacts:/279698036488190190/d19d7e1162f1494ba88691e102a36681/artifacts/heart_disease_prediction_model
+user_id: null
+version: 1

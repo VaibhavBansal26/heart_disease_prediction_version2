@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/279698036488190190/df6bb9a9ace64ee7b1830a5a7b57c130/artifacts
+end_time: 1715758775247
+entry_point_name: ''
+experiment_id: '279698036488190190'
+lifecycle_stage: active
+run_id: df6bb9a9ace64ee7b1830a5a7b57c130
+run_name: Extreme Gradient
+run_uuid: df6bb9a9ace64ee7b1830a5a7b57c130
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1715758773257
+status: 3
+tags: []
+user_id: vaibhavbansal

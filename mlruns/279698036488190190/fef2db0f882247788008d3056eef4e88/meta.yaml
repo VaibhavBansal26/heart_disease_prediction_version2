@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/279698036488190190/fef2db0f882247788008d3056eef4e88/artifacts
+end_time: 1715758871772
+entry_point_name: ''
+experiment_id: '279698036488190190'
+lifecycle_stage: active
+run_id: fef2db0f882247788008d3056eef4e88
+run_name: Decison Tree
+run_uuid: fef2db0f882247788008d3056eef4e88
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1715758869900
+status: 3
+tags: []
+user_id: vaibhavbansal

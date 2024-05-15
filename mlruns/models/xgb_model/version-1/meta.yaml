@@ -1,0 +1,14 @@
+aliases: []
+creation_timestamp: 1715758775244
+current_stage: None
+description: ''
+last_updated_timestamp: 1715758775244
+name: xgb_model
+run_id: df6bb9a9ace64ee7b1830a5a7b57c130
+run_link: ''
+source: mlflow-artifacts:/279698036488190190/df6bb9a9ace64ee7b1830a5a7b57c130/artifacts/heart_disease_prediction_model
+status: READY
+status_message: null
+storage_location: mlflow-artifacts:/279698036488190190/df6bb9a9ace64ee7b1830a5a7b57c130/artifacts/heart_disease_prediction_model
+user_id: null
+version: 1

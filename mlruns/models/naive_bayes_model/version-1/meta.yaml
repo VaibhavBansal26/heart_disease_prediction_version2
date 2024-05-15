@@ -1,0 +1,14 @@
+aliases: []
+creation_timestamp: 1715758480146
+current_stage: None
+description: ''
+last_updated_timestamp: 1715758480146
+name: naive_bayes_model
+run_id: 0802741116d74290a4c7c7b5d2eb809e
+run_link: ''
+source: mlflow-artifacts:/279698036488190190/0802741116d74290a4c7c7b5d2eb809e/artifacts/heart_disease_prediction_model
+status: READY
+status_message: null
+storage_location: mlflow-artifacts:/279698036488190190/0802741116d74290a4c7c7b5d2eb809e/artifacts/heart_disease_prediction_model
+user_id: null
+version: 1

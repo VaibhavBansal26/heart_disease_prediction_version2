@@ -1,0 +1,78 @@
+{
+  "Age": [
+    29,
+    77
+  ],
+  "AgeCategory": [
+    "Adult",
+    "Senior",
+    "Youth"
+  ],
+  "Angina": [
+    0,
+    1
+  ],
+  "BloodPressure": [
+    94,
+    200
+  ],
+  "ChestPain": [
+    0,
+    1,
+    2,
+    3
+  ],
+  "Cholesterol": [
+    126,
+    564
+  ],
+  "ECG": [
+    0,
+    1,
+    2
+  ],
+  "FastingBloodSugar": [
+    0,
+    1
+  ],
+  "Flourosopy": [
+    0,
+    1,
+    2,
+    3,
+    4
+  ],
+  "MaxHeartRate": [
+    71,
+    202
+  ],
+  "Peak": [
+    0.0,
+    6.2
+  ],
+  "ReversableDefect": [
+    0,
+    1,
+    2,
+    3
+  ],
+  "Sex": [
+    0,
+    1
+  ],
+  "Slope": [
+    0,
+    1,
+    2
+  ],
+  "Smoker": [
+    "Current Smoker",
+    "Former Smoker",
+    "Non-Smoker"
+  ],
+  "TreatmentType": [
+    "Lifestyle Changes",
+    "Medication",
+    "Surgery"
+  ]
+}

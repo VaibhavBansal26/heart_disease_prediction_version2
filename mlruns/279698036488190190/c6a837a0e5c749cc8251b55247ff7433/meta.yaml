@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/279698036488190190/c6a837a0e5c749cc8251b55247ff7433/artifacts
+end_time: 1715759970716
+entry_point_name: ''
+experiment_id: '279698036488190190'
+lifecycle_stage: active
+run_id: c6a837a0e5c749cc8251b55247ff7433
+run_name: auspicious-robin-93
+run_uuid: c6a837a0e5c749cc8251b55247ff7433
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1715759907821
+status: 4
+tags: []
+user_id: vaibhavbansal

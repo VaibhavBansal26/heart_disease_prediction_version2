@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/279698036488190190/7a5eeff68d9f412baf4bc9401f1aec10/artifacts
+end_time: 1715759374460
+entry_point_name: ''
+experiment_id: '279698036488190190'
+lifecycle_stage: active
+run_id: 7a5eeff68d9f412baf4bc9401f1aec10
+run_name: Rnadom_Forest_n_estimators_50
+run_uuid: 7a5eeff68d9f412baf4bc9401f1aec10
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1715759372577
+status: 3
+tags: []
+user_id: vaibhavbansal

@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/279698036488190190/ccaaf9fb6ae84842897ccaaa0dcdee08/artifacts
+end_time: 1715758950855
+entry_point_name: ''
+experiment_id: '279698036488190190'
+lifecycle_stage: active
+run_id: ccaaf9fb6ae84842897ccaaa0dcdee08
+run_name: SVC Model
+run_uuid: ccaaf9fb6ae84842897ccaaa0dcdee08
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1715758948984
+status: 3
+tags: []
+user_id: vaibhavbansal
