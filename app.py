@@ -34,7 +34,7 @@ with open('input_options.json') as f:
 col1, col2 = st.columns(2)
 
 with col1:
-    st.json(options)
+    st.table(options)
 
 
     
