@@ -36,11 +36,9 @@ col1, col2 = st.columns(2)
 with col1:
     st.json(options)
 
-with col2:
-    st.image('heart.svg', caption='Heart Illustration')
 
     
-
+prediction = None
 # Prediction button
 if st.button('Predict'):
     try:
@@ -58,3 +56,13 @@ if st.button('Predict'):
         st.error(f"Request failed: {e}")
     except Exception as e:
         st.error(f"An error occurred: {e}")
+        
+with col2:
+    if prediction == 1:
+        st.image('defective_heart.svg', caption='Heart Illustration')
+        st.warning("Warning: Health Disease Predicted")
+    else:
+        st.image('heart.svg', caption='Heart Illustration')
+        if prediction == 0:
+            st.success("Congratulations! Healthy Heart Detected")
+           
