@@ -1,6 +1,8 @@
 import streamlit as st
 import json
 import requests
+from st_aggrid import AgGrid, GridOptionsBuilder
+import pandas as pd 
 
 
 st.title('Heart Disease Prediction App')
@@ -29,12 +31,26 @@ with open('input_options.json') as f:
 # Display the options selected by the user
 # st.write(options)
 
+emoji_dict = {
+    'age': '🔢', 'trestbps': '📏', 'chol': '🍔', 'thalach': '💓', 'oldpeak': '⛰️',
+    'sex': '🚹🚺', 'cp': '❤️', 'fbs': '🍬', 'restecg': '📈', 'exang': '🚫', 'slope': '⛷️', 'ca': '🔢', 'thal': '🧬',
+    'Age Category': '🧓', 'Smoker': '🚬', 'Treatment Type': '🔧'
+}
 
+# Transform options for display with emojis
+options_for_display = [(key, f"{emoji_dict.get(key, '')} {value}") for key, value in options.items()]
+options_df = pd.DataFrame(options_for_display, columns=['Predictors', 'Selections'])
+options_df.reset_index(drop=True, inplace=True)
+
+gb = GridOptionsBuilder.from_dataframe(options_df)
+gb.configure_grid_options(domLayout='autoHeight')  # Default layout
+grid_options = gb.build()
 
 col1, col2 = st.columns(2)
 
 with col1:
-    st.json(options)
+    # st.json(options)
+    AgGrid(options_df, gridOptions=grid_options, fit_columns_on_grid_load=True)
 
 
     
@@ -56,7 +72,7 @@ if st.button('Predict'):
         st.error(f"Request failed: {e}")
     except Exception as e:
         st.error(f"An error occurred: {e}")
-        
+
 with col2:
     if prediction == 1:
         st.image('defective_heart.svg', caption='Heart Illustration')
