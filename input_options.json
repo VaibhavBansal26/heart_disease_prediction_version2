@@ -1,7 +1,7 @@
 {
   "Age": [
-    29,
-    77
+    0,
+    100
   ],
   "AgeCategory": [
     "Adult",
@@ -13,7 +13,7 @@
     1
   ],
   "BloodPressure": [
-    94,
+    0,
     200
   ],
   "ChestPain": [
@@ -23,7 +23,7 @@
     3
   ],
   "Cholesterol": [
-    126,
+    0,
     564
   ],
   "ECG": [
@@ -43,7 +43,7 @@
     4
   ],
   "MaxHeartRate": [
-    71,
+    0,
     202
   ],
   "Peak": [
